@@ -41,9 +41,9 @@
                 }
               ],
               "sourceMap": {
-                "hidden": true,
                 "scripts": true,
-                "styles": true
+                "styles": false,
+                "vendor": false
               },
               "fileReplacements": [
                 {

@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'myApp';
 
   onClickMeClick() {
-    alert('You clicked me!!!');
-    Sentry.captureException(new Error('You clicked me!'));
+    alert('You clicked me, hey!!!');
+    Sentry.captureException(new Error('You clicked me, hey!'));
   }
 }
