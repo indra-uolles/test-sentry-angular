@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { environment } from 'environment';
+import { environment } from '../environments/environment.prod';
 import * as Sentry from '@sentry/angular';
 
 Sentry.init({
