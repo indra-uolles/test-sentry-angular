@@ -14,7 +14,7 @@ export class AppComponent {
   }
 
   onClickMeClick2() {
-    alert('You clicked me, heyho!!!');
-    Sentry.captureException(new Error('You clicked me, heyho!'));
+    alert('You clicked me, heyho you!!!');
+    Sentry.captureException(new Error('You clicked me, heyho you!'));
   }
 }

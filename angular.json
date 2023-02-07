@@ -41,7 +41,6 @@
                 }
               ],
               "sourceMap": {
-                "hidden": true,
                 "scripts": true
               },
               "fileReplacements": [
