@@ -42,7 +42,6 @@
               ],
               "sourceMap": {
                 "scripts": true,
-                "hidden": true
               },
               "optimization": {
                 "scripts": true
