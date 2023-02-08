@@ -44,6 +44,9 @@
                 "scripts": true,
                 "hidden": true
               },
+              "optimization": {
+                "scripts": true
+              },
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
