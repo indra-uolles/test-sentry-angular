@@ -18,9 +18,9 @@ export class AppComponent {
   }
 
   onClickMeClick3() {
-    alert('You clicked me, Sentry tester, hmm you wed 2');
+    alert('You clicked me, Sentry tester, hmm you wed 3');
     Sentry.captureException(
-      new Error('You clicked me, Sentry tester, hmm you wed 2')
+      new Error('You clicked me, Sentry tester, hmm you wed 3')
     );
   }
 }
