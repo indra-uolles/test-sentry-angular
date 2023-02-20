@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'myApp';
 
   onClickMeClick() {
-    alert('You clicked me, hey!!!');
+    alert('You clicked me, hey!!! feb 20 11:45');
   }
 
   onClickMeClick2() {
@@ -18,9 +18,9 @@ export class AppComponent {
   }
 
   onClickMeClick3() {
-    alert('You clicked me, Sentry tester, hmm you 20 feb 11:38');
+    alert('You clicked me, Sentry tester, hmm you feb 20 11:45');
     Sentry.captureException(
-      new Error('You clicked me, Sentry tester, hmm you 20 feb 11:38')
+      new Error('You clicked me, Sentry tester, hmm you feb 20 11:45')
     );
   }
 }

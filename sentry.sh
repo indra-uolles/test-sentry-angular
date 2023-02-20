@@ -1,5 +1,5 @@
 version=$(grep -Eo '[0-9]\.[0-9]\.[0-9]+' app.version.ts)
-# echo $version
+echo $version
 
 sentry-cli releases new -p test-sentry-angular "$version"
 sentry-cli releases set-commits --auto "$version"
