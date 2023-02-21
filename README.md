@@ -11,6 +11,7 @@ https://stackoverflow.com/questions/34907682/how-to-display-the-app-version-in-a
 # Test procedure
 
 - change app.component.ts (add a new timestamp to btn messages)
+- change version in package.json
 - ng build
 - sh sentry.sh
 - push to the main branch
