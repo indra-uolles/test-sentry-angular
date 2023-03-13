@@ -6,10 +6,3 @@ sentry-cli releases new "$version"
 sentry-cli releases set-commits --auto "$version"
 sentry-cli releases files "$version" upload-sourcemaps docs/
 sentry-cli releases new "$version" --finalize
-
-# Remove all .js.map files
-for file in $(find ./docs -type f -name '*.js.map');
-do
-    echo "Removing $file";
-    rm $file;
-done
