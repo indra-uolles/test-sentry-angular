@@ -4,8 +4,7 @@ version=$(echo $version_str | grep -Eo '[0-9]\.[0-9]\.[0-9]+')
 version="$version-production"
 sentry-cli releases new "$version"
 sentry-cli releases set-commits --auto "$version"
-sentry-cli releases files "$version" upload docs/ --ext js 
-sentry-cli releases files "$version" upload-sourcemaps docs/ --ext map
+sentry-cli releases files "$version" upload-sourcemaps docs/
 sentry-cli releases new "$version" --finalize
 
 # Remove all .js.map files
